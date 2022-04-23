@@ -46,7 +46,7 @@ int length = x.Length;
 int result = 0;
 for(int index = 0; index < length; index++)
 {
-    result += Convert.ToInt32(x[index].ToString());
+    result += Convert.ToInt32(x[index]);
 }
 
 Console.WriteLine(result);
